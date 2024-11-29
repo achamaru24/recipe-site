@@ -1,0 +1,81 @@
+/* CSSリセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ヘッダー */
+header {
+    background-color:cornflowerblue;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: red;
+}
+
+/* メインコンテンツ */
+main {
+    background-color:white;
+    padding: 20px;
+}
+
+main p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* 新着レシピ */
+.recipe {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+    /* box-shadow: 横方向のオフセット 縦方向のオフセット ぼかしの範囲 広がりの範囲 色; */
+    box-shadow: 0px 0px;
+    margin-bottom: 15px;
+}
+
+.recipe-image {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.recipe a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    color:darkblue;
+}
+
+.recipe a:hover {
+    color: red;
+}
+
+/*　フッター　*/
+footer {
+    background-color:dimgray;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
